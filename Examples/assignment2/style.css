@@ -1,0 +1,26 @@
+#maintitle {
+color: #FFCC00;
+width: 400px
+height:480px;
+
+border: 2px solid #FFCC00;
+border-left: 20px solid #FFCC00;
+
+padding: 25px;
+padding-top: 100px
+
+margin: 100px;
+
+}
+.largetext {font-size:36px; }
+main { width:800px; }
+  width:800px;
+  border: 1px dotted black;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+h1,h2,h3, p, table, li.largetext{ font-size: 36px}
