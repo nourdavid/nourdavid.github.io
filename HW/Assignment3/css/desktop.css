@@ -1,0 +1,56 @@
+.image-bg {
+  background-image: url("../images/GD.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+header h1 {
+  height: 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+nav ul {
+  text-align: right;
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+nav li {
+  text-align: center;
+  font-size: 32px;
+  padding: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: inline;
+}
+.square-img {
+  display: none;
+ }
+.wide-img {
+  display: block;
+ }
+ /* Gallery layout */
+ .gallery { width: 600px;}
+ .gallery li {
+   width: 600px;
+   height: 600px;
+   margin: 10px;
+   float: left;
+ }
+ .content { display: block; width: 960px; margin-left: auto;margin-right: auto;}
+
+ footer {
+   /* position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 100px; */
+ }
+ .push {
+   display: block;
+   height: 100px;
+ }

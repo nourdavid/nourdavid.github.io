@@ -1,0 +1,34 @@
+#maintitle {
+color: #C93535;
+font-family: 'Oswald', sans-serif;
+
+width: 400px;
+height:480px;
+
+border: 2px solid #C93535;
+border-left: 20px solid #C93535;
+
+padding: 25px;
+padding-top: 100px;
+
+margin: 100px;
+}
+.oswald
+{
+  font-family: 'Oswald', sans-serif;
+}
+body { /* whatever you put here will affect the whole body, now this is a pink background*/
+background: pink;
+background-size: cover;
+}
+main { /* red box with white dotted bborder and centered*/
+width: 800px;
+border: 1px dotted white;
+margin-left: auto;
+margin-right: auto;
+background-color: red;
+}
+
+nav ul {
+
+}
