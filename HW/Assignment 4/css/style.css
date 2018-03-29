@@ -1,0 +1,73 @@
+#howTo li { display: none; }
+#howTo li.active { display: block; }
+
+
+.largetext {font-size:34px; }
+
+.oswald
+{
+  font-family: 'Oswald', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+ li,p,h1,h3,h2 {
+
+    font-family: 'Oswald', sans-serif;
+
+ }
+li {
+  display: none;
+  }
+li img {
+  max-width: 100%;
+}
+li p {
+  padding: 10px;
+}
+li img {
+}
+li h2 {
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #008CBA;
+  height: 50px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-size: 20px;
+  line-height: 150%
+}
+.button {
+    background-color: #008CBA;; /* BLUE */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button.previous {
+  background-color: #008CBA
+}
+.getStarted {
+  width: 100%;
+  background-color: green;
+}
+.active {
+  border: 2px solid #008CBA;
+  display: block;
+}
+.howto, .buttonContainer, .titleContainer {
+  width:600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 0
+}
+.button3 {width: 100%;}
+
+.survey {
+  text-align: center;
+}
+.survey .yes {background-color:blue; margin: 15px;}
+.survey .no {background-color:blue;  margin: 15px; }
