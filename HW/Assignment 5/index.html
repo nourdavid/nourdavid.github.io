@@ -2,10 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>JQ Plugins</title>
+    <title>My HomeTown Margarita Island</title>
+    <h1 class="oswald">My HomeTown Margarita Island, Venezuela</h1>
     <link rel="stylesheet" href="gallery/css/blueimp-gallery.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+<div id="wrapper">
+    <div class="main">
+      <section class="page1 mgta1">
+        ...
+      </section>
+      <section class="page2 mgta2">
+        ...
+      </section>
+      ...
+      <section class="last-page mgta3">
+        ...
+      </section>
+    </div>
 
     <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery">
@@ -19,14 +35,20 @@
 </div>
 
 <div id="links">
-    <a href="http://placehold.it/640x480/ffcc00" title="Banana">
-        <img src="http://placehold.it/200x200/ffcc00" alt="Banana">
+    <a href="images/mgta1.jpg" title="Margarita Island, Venezuela">
+        <img src="images/mgta1.jpg" alt=""width="640" height="480">
     </a>
-    <a href="http://placehold.it/640x480/ffcc00" title="Apple">
-        <img src="http://placehold.it/200x200/ffcc00" alt="Apple">
+    <a href="images/mgta2.jpg" title="Margarita Island Beaches">
+        <img src="images/mgta2.jpg" alt=""width="640" height="480">
     </a>
-    <a href="http://placehold.it/640x480/ffcc00" title="Orange">
-        <img src="http://placehold.it/200x200/ffcc00" alt="Orange">
+    <a href="images/mgta3.jpg" title="Air look of Margarita Island">
+        <img src="images/mgta3.jpg" alt=""width="640" height="480">
+    </a>
+    <a href="images/mgta4.jpg" title="City of Juan Griego">
+        <img src="images/mgta4.jpg" alt=""width="640" height="480">
+    </a>
+    <a href="images/mgta5.jpg" title="Cabo Negro">
+        <img src="images/mgta5.jpg" alt=""width="640" height="480">
     </a>
 </div>
 
@@ -43,7 +65,13 @@
 <script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
 
 <script src="gallery/js/blueimp-gallery.min.js"></script>
+<script src="tildedpagescroll/jquery.tiltedpage-scroll.min.js"></script>
+<script type="text/javascript">
+$(".main").tiltedpage_scroll({
+   angle:20              // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+ });
 
+</script>
 <script>
 document.getElementById('links').onclick = function (event) {
     event = event || window.event;
@@ -63,6 +91,6 @@ blueimp.Gallery(
     }
 );
 </script>
-
+</div>
   </body>
 </html>
