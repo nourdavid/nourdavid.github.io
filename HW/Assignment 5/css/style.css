@@ -2,6 +2,8 @@
 {
   font-family: 'Oswald', sans-serif;
 }
+.largetext {font-size:40px; }
+.light-txt { color: #649BBC; }
 
 .mgta1 .tps-wrapper { background: url('../images/mgta1.JPG');}
 .mgta2 .tps-wrapper { background: url('../images/mgta2.jpg');}
