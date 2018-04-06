@@ -3,10 +3,10 @@
   font-family: 'Oswald', sans-serif;
 }
 
-.mgta1 { background: url('../images/mgta1.JPG');}
-.mgta2 { background: url('../images/mgta2.jpg');}
-.mgta3 { background: url('../images/mgta3.jpg');}
-.mgta4 { background: url('../images/mgta4.jpg');}
+.mgta1 .tps-wrapper { background: url('../images/mgta1.JPG');}
+.mgta2 .tps-wrapper { background: url('../images/mgta2.jpg');}
+.mgta3 .tps-wrapper { background: url('../images/mgta3.jpg');}
+.mgta4 .tps-wrapper { background: url('../images/mgta4.jpg');}
 .tps-section {
   width: 100%;
   height: 500px;
